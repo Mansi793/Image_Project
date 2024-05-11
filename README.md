@@ -4,9 +4,6 @@ This project aims to classify 6 types of fruit (apple, banana, orange, pomegrana
 ## Data Collection
 The model was trained on the dataset that was scraped from Google Images using selenium.
 
-I designed a programme that searches for photos on a webpage. The img tag will be used to identify the photos, and the CSS selector Q4LuWd will be applied to each image.  It saves the image source to a list after it has been found. This pattern repeats itself until the required number of images is found. If the required number of photographs is not met, I have included a backup option in the software. 
-
-The list of image urls is then sent to a different function that saves the image to the folder of its class
 
 Our model will train on the following set of 18 total classes 
 
